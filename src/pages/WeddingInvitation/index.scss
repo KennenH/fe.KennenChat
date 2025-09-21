@@ -1,0 +1,51 @@
+.wedding_wrapper {
+  position: flex;
+}
+
+.weddingup {
+  opacity: 0.45;
+  background-color: white;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+}
+
+.weddingdown {
+
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+  mask-image: linear-gradient(to top, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+}
+
+.wedding_container {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.wedding_container img {
+  
+  
+}
+
+.wedding_title {
+  position: absolute;           /* 绝对定位在容器内 */
+  top: 32%;                     /* 容器高度的 50% */
+  left: 50%;                    /* 容器宽度的 50% */
+  transform: translate(-50%, -50%); /* 居中 */
+  z-index: 2;                   /* 在图片之上 */
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  width: 80%;
+}

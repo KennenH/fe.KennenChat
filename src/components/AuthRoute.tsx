@@ -1,5 +1,5 @@
 import { getTokenLocal } from "@/utils"
-import { Navigate, replace } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 const AuthRoute = ({ children }: any) => {
   const token = getTokenLocal();
