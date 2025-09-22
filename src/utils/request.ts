@@ -68,7 +68,7 @@ const eventTracking = () => {
   request.post('/api/next-chat/tracking/github');
 }
 
-export {
+export { 
   request,
   completionNonStream,
   completionStream,
